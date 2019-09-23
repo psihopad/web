@@ -1,0 +1,26 @@
+img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#asd{
+	color: red;
+	background-color: #faeaea;
+	font-size: 20px;
+}
+*{
+	background:#AFEEEE;
+}
+.cl1{
+	color:red;
+	font-size: 18px;
+	
+}
+.cl2{
+	color:#8B0000;
+	font-size: 22px;
+	background-color: 	#F5DEB3;
+}
+h1{
+	text-align: center;
+}
