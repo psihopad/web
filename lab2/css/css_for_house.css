@@ -2,16 +2,16 @@
 	padding:0;
 	margin: 0;
 }
-.house_relative,.house_wall{
+.house-relative,.house-relative__wall{
 	position: relative;
 }
-.house_wall{
+.house-relative__wall{
 	width: 500px;
 	height:500px;
 	border: 1px solid red;
 	background-color: yellow;
 }
-.house_roof{
+.house-relative__roof{
 	width: 0;
 	height: 0;
 	border-left: 250px solid transparent;
@@ -19,7 +19,7 @@
 	border-bottom: 301px solid black;
 	position: relative;
 }
-.roof_tube{
+.house-relative__roof-tube{
 	background-color: brown;
 	width: 50px;
 	height: 80px;
@@ -27,37 +27,36 @@
 	left: 50px;
 	top:40px;
 }
-.wall_window_green,.wall_window_red{
+.house-relative__wall__window-one,.house-relative__wall__window-two{
 	width: 50px;
 	height: 100px;
 	border: 1px solid #000;
-	
 	position: relative;
 }
-.wall_window_green{
+.house-relative__wall__window-one{
 	background:green;
 	top:180px;
 	left: 50px;
 }
-.wall_window_red{
+.house-relative__wall__window-two{
 	background:red;
 	top: -120px;
 	left: 400px;
 
 }
-.window_frame_hor,.window_frame_vert{
+.house-relative__wall__window-frame-hor,.house-relative__wall__window-frame-vert{
 	width: 100%;
 	border: 1px solid #000;
 	position: relative;
 	top:50px;
 }
-.window_frame_vert{
+.house-relative__wall__window-frame-vert{
 	transform: rotate(90deg);
 	width: 100px;
 	left: -25px;
 	top: 48px;
 }
-.wall_door{
+.house-relative__wall__door{
 	width: 100px;
 	height: 200px;
 	border: 1px solid #000;
@@ -66,7 +65,7 @@
 	top:197px;
 	left: 200px;
 }
-.door_handle{
+.house-relative__wall__door-handle{
 	width: 15px;
 	height: 15px;
 	background-color: black;
@@ -76,53 +75,53 @@
 	left: 2px;
 
 }
-.house_absolute,.house_wall_2{
+.house-absolute,.house-absolute__wall{
 	position: absolute;}
-.house_wall_2{
+.house-absolute__wall{
 	top:300px;
 	width: 500px;
 	height:500px;
 	border: 1px solid red;
 	background-color: yellow;}
-.house_roof_2{
+.house-absolute__roof{
 	width: 0;
 	height: 0;
 	border-left: 250px solid transparent;
 	border-right: 250px solid transparent;
 	border-bottom: 301px solid black;
 	position: absolute;}
-.wall_window_green_2,.wall_window_red_2{
+.house-absolute__wall__window-one,.house-absolute__wall__window-two{
 	width: 100px;
 	height: 100px;
 	border: 1px solid #000;
 	
 	position: absolute;
 }
-.wall_window_green_2{
+.house-absolute__wall__window-one{
 	background:green;
 	top:120px;
 	left: 300px;
 }
-.wall_window_red_2{
+.house-absolute__wall__window-two{
 	background:red;
 	top: 120px;
 	left:100px;
 
 }
-.window_frame_hor_2,.window_frame_vert_2{
+.house-absolute__wall__window-frame-hor,.house-absolute__wall__window-frame-vert{
 	width: 100%;
 	border: 1px solid #000;
 	position: absolute;
 	top:50px;
 }
-.window_frame_vert_2{
+.house-absolute__wall__window-frame-vert{
 	transform: rotate(90deg);
 	width: 100px;
 	left: 0px;
 	top: 48px;
 
 }
-.wall_door_2{
+.house-absolute__wall__door{
 	width: 100px;
 	height: 200px;
 	border: 1px solid #000;
@@ -131,7 +130,7 @@
 	top:298px;
 	left: 200px;
 }
-.door_handle_2{
+.house-absolute__wall__door-handle{
 	width: 15px;
 	height: 15px;
 	background-color: black;
@@ -140,7 +139,7 @@
 	top:95px;
 	left: 2px;}
 
-.roof_tube_2{
+.house-absolute__roof-tube{
 	background-color: brown;
 	width: 50px;
 	height: 80px;
@@ -149,10 +148,10 @@
 	top:100px;}
 
 
-.house_fixed,.house_wall_3{
+.house_fixed,.house-fixed__wall{
 	position: fixed;}
 
-.house_wall_3{
+.house-fixed__wall{
 	top:250px;
 	left:700px;
 	width: 250px;
@@ -160,7 +159,7 @@
 	border: 1px solid red;
 	background-color: yellow;}
 
-.house_roof_3{
+.house-fixed__roof{
 	width: 0px;
 	height: 0px;
 	border-left: 150px solid transparent;
@@ -170,32 +169,32 @@
     top:50px;
 	left:675px;}
 
-.wall_window_green_3,.wall_window_red_3{
+.house-fixed__wall__window-one,.house-fixed__wall__window-two{
 	width: 50px;
 	height: 50px;
 	border: 1px solid #000;
 	border-radius: 23%;
 	position: fixed;
 }
-.wall_window_red_3{
+.house-fixed__wall__window-one{
 	background:green;
 	top:350px;
 	left:870px;
 }
-.wall_window_green_3{
+.house-fixed__wall__window-two{
 	background:red;
 	top: 270px;
 	left:730px;
 
 }
-.window_frame_hor_3{
+.house-fixed__wall__window-one-frame-hor{
 	width: 50px;
 	border: 1px solid #000;
 	position: fixed;
 	top:375px;
 }
 
-.window_frame_hor_3_1{
+.house-fixed__wall__window-two-frame-hor{
 	width: 50px;
 	border: 1px solid #000;
 	position: fixed;
@@ -203,7 +202,7 @@
 }
 
 
-.wall_door_3{
+.house-fixed__wall__door{
 	position: fixed;
 	top:400px;
 	width: 50px;
@@ -212,7 +211,7 @@
 	background:blue;
 	left: 700px;
 }
-.door_handle_3{
+.house-fixed__wall__door-handle{
 	width: 5px;
 	height: 5px;
 	background-color: black;
@@ -221,7 +220,7 @@
 	top:450px;
 	left: 702px;}
 
-.roof_tube_3{
+.house-fixed__roof-tube{
 	background-color: brown;
 	width: 50px;
 	height: 80px;
@@ -229,10 +228,10 @@
 	left: 870px;
 	top:98px;}
 
-.house_fixed,.house_wall_4{
+.house_static,.house-static__wall{
 	position: static;}
 
-.house_wall_4{
+.house-static__wall{
 	padding:0;
 	margin:0px 30px 0px;
 	width: 250px;
@@ -240,7 +239,7 @@
 	border: 1px solid red;
 	background-color: yellow;}
 
-.house_roof_4{
+.house-static__roof{
 	padding:0;
 	margin: 800px 0px 0px;
 	margin-left: 5px;
@@ -251,22 +250,22 @@
 	border-bottom: 200px solid black;
     position: static;}
 
-.wall_window_green_4,.wall_window_red_4{
+.house-static__wall__window-one,.house-static__wall__window-two{
 	width: 50px;
 	height: 50px;
 	border: 1px solid #000;
 	border-radius: 23%;
 	position: static;
 }
-.wall_window_green_4{
+.house-static__wall__window-one{
 	background:green;
 	margin:75px 0px -110px 150px;
 }
-.wall_window_red_4{
+.house-static__wall__window-two{
 	background:red;
 	margin:0px 0px 0px 40px;
 }
-.window_frame_hor_4{
+.house-static__wall__window-one-frame-hor{
 	width: 50px;
 	border: 1px solid #000;
 	position: static;
@@ -274,7 +273,7 @@
 	
 }
 
-.window_frame_hor_4_1{
+.house-static__wall__window-two-frame-hor{
 	width: 50px;
 	border: 1px solid #000;
 	position: static;
@@ -282,7 +281,7 @@
 }
 
 
-.wall_door_4{
+.house-static__wall__door{
 	position: static;
 	width: 50px;
 	height: 100px;
@@ -290,7 +289,7 @@
 	background:blue;
 	margin:80px 0px 0px 50px;
 }
-.door_handle_4{
+.house-static__wall__door-handle{
 	width: 5px;
 	height: 5px;
 	background-color: black;
@@ -298,7 +297,7 @@
 	position: static;
 	margin:50px 0px 0px 2px;}
 
-.roof_tube_4{
+.house-static__roof-tube{
 	background-color: brown;
 	width: 50px;
 	height: 80px;
