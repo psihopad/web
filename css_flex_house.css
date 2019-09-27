@@ -1,0 +1,64 @@
+
+.block {
+	
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.house__roof{
+	display: flex;
+	border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+	border-bottom: 300px solid black;
+}
+.wall{
+	display:flex;
+	height:400px;
+	width:500px;
+	border:2px solid black;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: brown;
+}
+.windows{
+	display: flex;
+	justify-content: space-around;
+}
+.window{
+	display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 55px;
+    height: 55px;
+    background-color: #a8f0f6;
+	margin-top: 30px;
+}
+.window_one-frame-hor,.window_one-frame-vert{
+	border: 1px solid #000;
+
+}
+.window_one-frame-vert{
+	transform: rotate(90deg);
+}
+.door{
+	display: flex;
+	justify-content:flex-end;
+	align-self: center;
+	background: blue;
+	border:1px solid #000;
+	height: 85px;
+	width: 60px;
+}
+.door_handle{
+	display: flex;
+	justify-content:center;
+	align-self: center;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background-color: red;
+	border:1px solid #000;
+}
