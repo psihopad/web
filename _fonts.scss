@@ -1,0 +1,43 @@
+.logotyp {
+	a {
+		letter-spacing: 0.3em;
+		color: $color_1;
+	}
+}
+.root__menu_top {
+	a {
+		font-size: 14px;
+		font-weight: bold;
+		color: $color_2;
+		&:hover {
+			color: $color_3;
+		}
+	}
+}
+.slider__text_top {
+	h1 {
+		color: $color_4;
+		letter-spacing: 10px;
+		font-weight: initial;
+	}
+	h2 {
+		color: $color_5;
+		font-weight: initial;
+	}
+}
+.team__title {
+	font-size: 30px;
+}
+.menu__itemm {
+	a {
+		font-size: 14px;
+		font-weight: bold;
+		color: $color_2;
+		&:hover {
+			color: $color_6;
+		}
+	}
+}
+.copyright__text {
+	color: $color_7;
+}
